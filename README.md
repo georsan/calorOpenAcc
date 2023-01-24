@@ -26,16 +26,21 @@ se ejecuta el codigo en un pc sin utilizar openacc para comparar el tiempo que s
 
 para correr este codigo se puede utilizar los comandos
 
+
 `
 gcc ecuacionCalor.c -o ecuacioCalor
 `
+
 `
 ./ecuacioCalor
 `
+
 para correr este codigo en una gpu se utilza 
+
 `
 gcc ecuacionCalor.c -o ecuacioCalor
 `
+
 `
 ./ecuacioCalor
 `
