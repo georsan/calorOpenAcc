@@ -18,3 +18,24 @@ Algunas características que caracterizan a OpenACC son:
 
 # Diferencias con mpi
 OpenACC se utiliza para acelerar aplicaciones en un solo dispositivo, mientras que MPI se utiliza para distribuir y coordinar tareas entre varios nodos en un sistema de clúster.
+
+# Ejecicion de codigo
+se ejecuta el codigo en un pc sin utilizar openacc para comparar el tiempo que se demora en hacer el calculo en los dos entornos y poder evidenciar el uso de la herramienta.
+
+![calor sin openacc](https://github.com/georsan/calorOpenAcc/blob/de84abe0c6378d835baf822040616c2bb970c4e4/codigoLocal.png)
+
+para correr este codigo se puede utilizar los comandos
+
+`
+gcc ecuacionCalor.c -o ecuacioCalor
+`
+`
+./ecuacioCalor
+`
+para correr este codigo en una gpu se utilza 
+`
+gcc ecuacionCalor.c -o ecuacioCalor
+`
+`
+./ecuacioCalor
+`
